@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import {
+    Routes, Route, Outlet,
+  } from 'react-router-dom';
+  import Home from './components/Home';
+  import Works from './components/Works';
+  import Services from './components/Services';
+  import Contact from './components/Contact';
+  import About from './components/About';
+  import SideNavbar from './components/sidebar/SideNavbar';
+  import './App.css';
 
-export default App;
+  
+  function App() {
+    const SidebarLayout = () => (
+      <>
+        <SideNavbar />
+        <Outlet />
+      </>
+    );
+    return (
+      <div className="App pb-4">
+        <Routes>
+          <Route element={<SidebarLayout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </div>
+    );
+  }
+  
+  export default App;
