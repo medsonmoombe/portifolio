@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <section className="home-sec">
-      <div className="left-div">
+      {/* <div className="left-div">
         <div className="my_intro">
           <h1 className="name">Hello My name is Emmanuel Moombe</h1>
           I'm  a software Developer
@@ -16,7 +16,7 @@ const Home = () => {
 
         </div>
       </div>
-      <div className="right-div">Right</div>
+      <div className="right-div">Right</div> */}
     </section>
   );
 };
