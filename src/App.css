@@ -7,3 +7,13 @@
 .my_intro {
     width: 100%;
 }
+
+.sc-gswNZR {
+    min-height: 430px !important;
+    max-height: 430px !important;
+}
+
+.rec {
+    gap: 10px !important;
+    margin-left: -2px;
+}
