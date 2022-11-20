@@ -18,7 +18,7 @@ const variants = {
 
   return (
     <>
-    <button className="text-red-700 fixed z-30" onClick={() => setIsOpen(prevState => !prevState)}>{ isOpen ? <MdClose className="text-cyan-700 text-3xl rounded bg-amber-600" /> : <HiMenu className="text-amber-700 text-4xl" /> }</button>
+    <button className="text-red-700 fixed z-30" onClick={() => setIsOpen(prevState => !prevState)}>{ isOpen ? <MdClose className="text-cyan-700 text-3xl rounded bg-amber-600" /> : <HiMenu className="text-amber-700 text-4xl"/> }</button>
       <motion.aside className="w-64 lg:relative md:fixed sm:fixed z-3 sm:z-10" aria-label="Sidebar h-100" animate={isOpen ? "open" : "closed"} variants={variants}>
       
         <div className="overflow-y-auto py-4 bg-cyan-700 rounded bg-cyan-700 h-screen pt-20 z-3">

@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap');
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
 .this span {
     display: inline-block;
+    order: -1 !important;
 }
 
 .my_intro {
@@ -16,4 +20,10 @@
 .rec {
     gap: 10px !important;
     margin-left: -2px;
+}
+
+.sc-bcXHqe, .cVXxbE {
+    border: none !important;
+    border-radius: 25px 0 0 25px !important;
+    background: rgb(180 83 9) !important;
 }

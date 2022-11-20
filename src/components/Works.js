@@ -15,7 +15,7 @@ const Works = () => {
    <>
       <section className="bg-slate-800 w-5/5 flex flex-col pt-35 h-screen w-full">
        <div className="w-full mt-20">
-       <h1 className="text-3xl text-center pb-10 text-amber-700"> My Works</h1>
+       <h1 className="text-3xl text-center pb-10 text-cyan-700 font-bold"> My Works</h1>
        <Carousel breakPoints={breakPoints}>
         {
           ProjectsArr.map((project) => (<ProjectCard key={project.id} project={project}  />))
