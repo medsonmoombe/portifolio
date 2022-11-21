@@ -25,7 +25,7 @@ const About = () => {
         <div
         className="pt-2">
           <article className="w-full m-auto">
-            <p className="abt-para w-3/5 m-auto text-gray-500 sm:text-sm">
+            <p className="abt-para w-3/5 m-auto text-white sm:text-sm">
               Hello, I'm a software developer! I can help you build a product,
               feature or website. Look through some of my work and experience!
               If you like what you see and have a project you need coded, don't

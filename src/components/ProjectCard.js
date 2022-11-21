@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
         className="w-full h-42" src={img} alt="project name"></motion.img>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-amber-600 font-bold	 capitalize">{title}</div>
-          <p className="text-gray-700 text-base w-30 overflow-ellipsis sm:text-xs">{description}...</p>
+          <p className="text-white text-base w-30 overflow-ellipsis sm:text-xs">{description}...</p>
         </div>
         <div className="flex justify-center items-center ">
           <div className="px-6 pt-4 pb-2 w-4/5 flex justify-center items-center">

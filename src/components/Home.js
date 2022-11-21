@@ -34,7 +34,7 @@ const Home = () => {
               })}
             </span>
           </h1>
-          <h2 className="lg:text-2xl md:text-xl sm:text-xl font-extrabold dark:text-white pl-8 pt-3 text-cyan-600 w-5/5 z-10">
+          <h2 className="text-3xl md:text-3xl sm:text-xl font-extrabold dark:text-white pl-8 pt-3 text-cyan-600 w-5/5 z-10">
             I'm a software Developer
           </h2>
         </div>

@@ -72,7 +72,7 @@ const Contact = () => {
             className="flex flex-col w-5/5 bg-gray-700 rounded p-4 sm:m-auto"
           >
             <h1 className="text-xl text-cyan-700 ml-2">Let's talk</h1>
-            <p className="my-4  text-gray-500  ml-2 md:text-xl lg:text-2xl sm:text-sm w-5/5">
+            <p className="my-4  text-white  ml-2 md:text-xl lg:text-2xl sm:text-sm w-5/5">
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
             </p>
