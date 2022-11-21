@@ -80,7 +80,7 @@ const variants = {
                 className="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-amber-600 white:hover:bg-gray-700 hover:text-white transition duration-300 ease-out hover:ease-in"
               >
                 <MdContacts />
-                <span className="flex-1 ml-8 whitespace-nowrap">Contacts</span>
+                <span className="flex-1 ml-8 whitespace-nowrap">Contact</span>
               </a>
             </li>
           </ul>
