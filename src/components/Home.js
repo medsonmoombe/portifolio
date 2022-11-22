@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { SpanText } from "./sidebar/SpanText";
 import img from "../asset/images/emma.png";
 import Particle from "./Particles";
+import resume from "../asset/images/emmanuel_moombe.pdf";
 
 const Home = () => {
   const headingText = "Hi, I'm Emmanuel".split("");
@@ -34,7 +35,7 @@ const Home = () => {
               })}
             </span>
           </h1>
-          <h2 className="text-3xl md:text-3xl sm:text-xl font-extrabold dark:text-white pl-8 pt-3 text-cyan-600 w-5/5 z-10">
+          <h2 className="text-3xl md:text-3xl sm:text-xl font-extrabold  pl-8 pt-3 text-cyan-600 w-5/5 z-10">
             I'm a software Developer
           </h2>
         </div>
@@ -46,14 +47,14 @@ const Home = () => {
         </div>
         <div className="flex gap-3 mb-0 justify-start items-start w-5/5 mr-auto ml-8 sm:order-3 z-10">
           <a
-            href="#"
+            href="/contact"
             className="justify-start items-start bg-cyan-600 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded hover:bg-amber-600  hover:text-white transition duration-150 ease-out hover:ease-in sm:py-1 sm:px-5 sm:text-xs"
           >
             Hire me
           </a>
           <a
-            href="#"
-            className="bg-cyan-600 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded ml-8 hover:bg-amber-600  hover:text-white transition duration-150 ease-out hover:ease-in sm:py-1 sm:px-4 sm:text-xs"
+            href={resume}
+            className="bg-cyan-600 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded ml-8 hover:bg-amber-600  hover:text-white transition duration-150 ease-out hover:ease-in sm:py-1 sm:px-4 sm:text-xs" download="emmanuel_moombe.pdf"
           >
             {" "}
             Download Resume

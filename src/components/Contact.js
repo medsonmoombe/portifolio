@@ -22,44 +22,56 @@ const Contact = () => {
             className="icon-sec bg-cyan-800 w-2/5 sm:w-3/5 sm:h-50  m-auto rounded"
           >
             <div className="flex justify-center items-center flex-col mt-20 sm:mt-8 gap-4 sm:gap-2">
-              <a
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                transition={{ duration: 1 }}
                 className="text-2xl text-amber-600 sm:text-sm"
                 href="https://www.linkedin.com/in/emmanuelmoombe/"
               >
                 <FaLinkedin />
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                transition={{ duration: 1 }}
                 className="text-2xl text-amber-600 sm:text-sm"
                 href="https://angel.co/u/emmanuel-moombe-1"
               >
                 <FaAngellist />
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                transition={{ duration: 1 }}
                 className="text-2xl text-amber-600 sm:text-sm"
                 href="https://github.com/medsonmoombe"
               >
                 <FaGithub />
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                transition={{ duration: 1 }}
                 className="text-2xl text-amber-600 sm:text-sm"
                 href="https://medium.com/@medsonmoombe21"
               >
                 <FaMedium />
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                transition={{ duration: 1 }}
                 className="text-2xl text-amber-600 sm:text-sm"
                 href="https://twitter.com/@emmanue78388405"
               >
                 <FaTwitter />
-              </a>
+              </motion.a>
               <div className="flex justify-center items-center mb-8">
                 <MdEmail className="text-2xl text-amber-600" />
-                <a
+                <motion.a
+                  whileHover={{ scale: 1.2 }}
+                  transition={{ duration: 1 }}
                   className="text-xl text-amber-600 sm:text-xs"
                   href="mailto:medsonmoombe21@gmail.com"
                 >
                   medsonmoombe21@gmail
-                </a>
+                </motion.a>
               </div>
             </div>
           </motion.div>

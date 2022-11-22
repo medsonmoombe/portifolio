@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import img from "../asset/images/emma.png";
+import resume from "../asset/images/emmanuel_moombe.pdf";
 
 const About = () => {
   return (
@@ -36,14 +37,14 @@ const About = () => {
         <div
          className="flex gap-3 mb-0  ml-42  w-3/5 m-auto md:mt-8 sm:mt-4 mt-8">
           <a
-            href="#"
+            href="/contact"
             className="justify-start items-start bg-cyan-600 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded hover:bg-amber-600  hover:text-white transition duration-150 ease-out hover:ease-in sm:py-1 sm:px-5 sm:text-xs"
           >
             Hire me
           </a>
           <a
-            href="#"
-            className="bg-cyan-600 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded ml-8 hover:bg-amber-600  hover:text-white transition duration-150 ease-out hover:ease-in sm:py-1 sm:px-4 sm:text-xs"
+            href={resume}
+            className="bg-cyan-600 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded ml-8 hover:bg-amber-600  hover:text-white transition duration-150 ease-out hover:ease-in sm:py-1 sm:px-4 sm:text-xs" download="emmanuel_moombe.pdf"
           >
             {" "}
             Download Resume
