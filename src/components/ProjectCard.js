@@ -16,13 +16,13 @@ const ProjectCard = ({ project }) => {
         <div className="px-1 py-1">
           <div className="font-bold text-xl mb-2 text-amber-600 font-bold	 capitalize">{title}</div>
           <p className="text-white text-base w-30 overflow-ellipsis sm:text-xs">{description}...</p>
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex justify-start items-start gap-2">
           <span className="bg-amber-700 text-white border-0 px-2 py-0 rounded">{lang[0]}</span>
           <span className="bg-amber-700 text-white border-0 px-2 py-0 rounded">{lang[1]}</span>
           <span className="bg-amber-700 text-white border-0 px-2 py-0 rounded">{lang[2]}</span>
           </div>
         </div>
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-start items-baseline ">
           <div className="px-6 pb-2 w-4/5 flex justify-center items-center mb-4">
             <a
               href={link}
