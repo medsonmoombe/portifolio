@@ -1,4 +1,4 @@
-import calc from "../asset/images/calc.png";
+import eshop from "../asset/images/eshop.png";
 import todo from "../asset/images/todo.png";
 import space from "../asset/images/space.png";
 import movies from "../asset/images/movies.png";
@@ -22,18 +22,17 @@ import css from "../asset/icons/css3.svg";
 export const ProjectsArr = [
   {
     id: 1,
-    link: "https://cozy-centaur-d16d95.netlify.app/",
-    code:"",
-    title: "Math Magician",
-    img: calc,
-    description:
-      "Math magicians is a website for all fans of mathematics.It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote",
-    lang: [" Css", "React", "Javascript"],
+    link: "https://sunny-syrniki-a48a54.netlify.app/",
+    code:"https://github.com/medsonmoombe/e-shopping",
+    title: "eshopping",
+    img: eshop,
+    description:"An online shopping e-commence website to shop",
+    lang: [" Scss", "React", "firebase"],
   },
   {
     id: 2,
     link: "https://medsonmoombe.github.io/todo-list/dist/index.html",
-    code:"",
+    code:"https://github.com/medsonmoombe/todo-list",
     title: "todoList",
     img: todo,
     description:
@@ -43,17 +42,17 @@ export const ProjectsArr = [
   {
     id: 3,
     link: "https://sparkling-mermaid-bef88d.netlify.app/",
-    code:"",
+    code:"https://github.com/medsonmoombe/react-redux-group-project",
     title: "Space Travellers",
     img: space,
     description:
-      "This space traveller service with the real live data from the SpaceX API. The application allows users to book rockets and join selected space missions as well as unsubcribe to the missions",
+      "This space traveller service with the real live data from the SpaceX API. The application allows users to book rockets and join selected space missions as well as unsubcribe",
     lang: [" Css", "React/Redux", "Javascript"],
   },
   {
     id: 4,
     link: "https://magical-rugelach-5decb5.netlify.app/",
-    code: "",
+    code: "https://github.com/medsonmoombe/movie-website",
     title: "Movie Website",
     img: movies,
     description:
