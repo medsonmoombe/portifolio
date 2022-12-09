@@ -1,5 +1,5 @@
 import eshop from "../asset/images/eshop.png";
-import todo from "../asset/images/todo.png";
+import recipe from "../asset/images/recipe_ap.png";
 import space from "../asset/images/space.png";
 import movies from "../asset/images/movies.png";
 import js from "../asset/icons/javascript.svg";
@@ -15,7 +15,7 @@ import redux from "../asset/icons/redux.svg";
 import bootstrap from "../asset/icons/bootstrap.svg";
 import rspec from "../asset/icons/rspec.svg";
 import test from "../asset/icons/jest.svg";
-import postgres from "../asset/icons/postgresql.svg"
+import postgres from "../asset/icons/postgresql.svg";
 
 import css from "../asset/icons/css3.svg";
 
@@ -23,26 +23,26 @@ export const ProjectsArr = [
   {
     id: 1,
     link: "https://sunny-syrniki-a48a54.netlify.app/",
-    code:"https://github.com/medsonmoombe/e-shopping",
+    code: "https://github.com/medsonmoombe/e-shopping",
     title: "eshopping",
     img: eshop,
-    description:"An online shopping e-commence website to shop",
+    description: "An online shopping e-commence website to shop",
     lang: [" Scss", "React", "firebase"],
   },
   {
     id: 2,
-    link: "https://medsonmoombe.github.io/todo-list/dist/index.html",
-    code:"https://github.com/medsonmoombe/todo-list",
-    title: "todoList",
-    img: todo,
+    link: "https://my-recipe-app-2uff.onrender.com/",
+    code: "https://github.com/medsonmoombe/Recipee_app",
+    title: "Recipe App",
+    img: recipe,
     description:
-      "This is a website which allows users to add their to do tasks and mark them completed if they are done also allows users to delete, edit and clear all completed task",
-    lang: [" Css", "Html", "Javascript"],
+      "The website keeps track of recipes, ingredients, and inventory. Allows to save, keep track, create recipes, and generate a shopping list based on whats missing from a recipe.",
+    lang: ["Bootstrap", "Ruby", "ruby on rails"],
   },
   {
     id: 3,
     link: "https://sparkling-mermaid-bef88d.netlify.app/",
-    code:"https://github.com/medsonmoombe/react-redux-group-project",
+    code: "https://github.com/medsonmoombe/react-redux-group-project",
     title: "Space Travellers",
     img: space,
     description:
@@ -64,51 +64,62 @@ export const ProjectsArr = [
 export const skills = [
   {
     id: 1,
-    icon: js
-  }, {
+    icon: js,
+  },
+  {
     id: 2,
-    icon: html
-  }, {
+    icon: html,
+  },
+  {
     id: 3,
-    icon: sass
-  }, {
+    icon: sass,
+  },
+  {
     id: 4,
-    icon: ruby
-  }, {
+    icon: ruby,
+  },
+  {
     id: 5,
-    icon: rails
-  }, {
+    icon: rails,
+  },
+  {
     id: 6,
-    icon: sql
-  }, {
+    icon: sql,
+  },
+  {
     id: 7,
-    icon: react
-  }, {
+    icon: react,
+  },
+  {
     id: 8,
-    icon: redux
-  }, {
+    icon: redux,
+  },
+  {
     id: 9,
-    icon: css
-  }, {
+    icon: css,
+  },
+  {
     id: 10,
-    icon: git
+    icon: git,
   },
   {
     id: 11,
-    icon: bootstrap
-  }, 
+    icon: bootstrap,
+  },
   {
     id: 12,
-    icon: github
+    icon: github,
   },
   {
     id: 13,
-    icon: postgres
-  }, {
-    id: 14,
-    icon: test
-  }, {
-    id: 15,
-    icon: rspec
+    icon: postgres,
   },
-]
+  {
+    id: 14,
+    icon: test,
+  },
+  {
+    id: 15,
+    icon: rspec,
+  },
+];

@@ -26,7 +26,7 @@ const ProjectCard = ({ project }) => {
           <div className="px-6 pb-2 w-4/5 flex justify-center items-center mb-4">
             <a
               href={link}
-              className="flex bg-gray-200 rounded-full px-3 py-1 sm:text-xs font-semibold text-gray-700 mr-2 mb-2 hover:underline"
+              className="flex bg-transparent rounded-full px-3 py-1 sm:text-xs  text-white mr-2 mb-2 hover:underline"
             >
               <BiLink className="text-amber-700" />
               live
@@ -35,7 +35,7 @@ const ProjectCard = ({ project }) => {
           <div className="px-6 pt-4 pb-2 w-4/5 flex justify-center items-center sm:pl-0 mb-4">
             <a
               href={code}
-              className="flex bg-gray-200 rounded-full px-3 py-1 sm:text-xs font-semibold text-gray-700 mr-2 mb-2 hover:underline transition duration-150 ease-out hover:ease-in"
+              className="flex bg-transparent  px-3 py-1 sm:text-xs  text-white mr-2 mb-2 hover:underline transition duration-150 ease-out hover:ease-in"
             >
               <BsCode className="text-amber-700 mt-1" />
               see code
