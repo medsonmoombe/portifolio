@@ -1,5 +1,5 @@
 import eshop from "../asset/images/eshop.png";
-import recipe from "../asset/images/recipe_ap.png";
+import recipe from "../asset/images/todo.png";
 import space from "../asset/images/space.png";
 import movies from "../asset/images/movies.png";
 import js from "../asset/icons/javascript.svg";
@@ -41,13 +41,12 @@ export const ProjectsArr = [
   },
   {
     id: 3,
-    link: "https://sparkling-mermaid-bef88d.netlify.app/",
-    code: "https://github.com/medsonmoombe/react-redux-group-project",
-    title: "Space Travellers",
+    link: "https://medsonmoombe.github.io/todo-list/dist/index.html",
+    code: "https://github.com/medsonmoombe/todo-list",
+    title: "Todo list",
     img: space,
-    description:
-      "This space traveller service with the real live data from the SpaceX API. The application allows users to book rockets and join selected space missions as well as unsubcribe",
-    lang: [" Css", "React/Redux", "Javascript"],
+    description:"This is a website which allows users to add their to do tasks and mark them completed if they are done also allows users to delete, edit and clear all completed tasks",
+     lang: [" Css", "React/Redux", "Javascript"],
   },
   {
     id: 4,
