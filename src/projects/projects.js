@@ -1,6 +1,6 @@
 import eshop from "../asset/images/eshop.png";
-import recipe from "../asset/images/todo.png";
-import space from "../asset/images/space.png";
+import recipe from "../asset/images/recipe_ap.png";
+import todo from "../asset/images/todo.png";
 import movies from "../asset/images/movies.png";
 import js from "../asset/icons/javascript.svg";
 import git from "../asset/icons/git.svg";
@@ -44,9 +44,9 @@ export const ProjectsArr = [
     link: "https://medsonmoombe.github.io/todo-list/dist/index.html",
     code: "https://github.com/medsonmoombe/todo-list",
     title: "Todo list",
-    img: space,
+    img: todo,
     description:"This is a website which allows users to add their to do tasks and mark them completed if they are done also allows users to delete, edit and clear all completed tasks",
-     lang: [" Css", "React/Redux", "Javascript"],
+     lang: [" Css", "html", "Javascript"],
   },
   {
     id: 4,
