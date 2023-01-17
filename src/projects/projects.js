@@ -1,7 +1,7 @@
 import eshop from "../asset/images/eshop.png";
 import recipe from "../asset/images/recipe_ap.png";
 import todo from "../asset/images/todo.png";
-import movies from "../asset/images/movies.png";
+import doc from "../asset/images/doc.png";
 import js from "../asset/icons/javascript.svg";
 import git from "../asset/icons/git.svg";
 import react from "../asset/icons/react.svg";
@@ -50,13 +50,13 @@ export const ProjectsArr = [
   },
   {
     id: 4,
-    link: "https://magical-rugelach-5decb5.netlify.app/",
-    code: "https://github.com/medsonmoombe/movie-website",
-    title: "Movie Website",
-    img: movies,
+    link: "https://63c6cb03c109d258d1ef70c9--flourishing-mochi-f95866.netlify.app/",
+    code: "https://github.com/medsonmoombe/Reserve-doctor-front-end",
+    title: "Reserve Doctor",
+    img: doc,
     description:
-      "This javascript  project  it is a movie website which fetches movies from TVmaze API and displays them,it uses involvement API for adding likes, comments and reservations ",
-    lang: [" Css", "Html", "Javascript"],
+      "This application is use to book an appointment with prominent Doctors around the world",
+    lang: [" Tailwindcss", "React/Redux", "Rails"],
   },
 ];
 
